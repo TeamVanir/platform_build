@@ -24,7 +24,6 @@ PRODUCT_PACKAGES := \
     libdrmframework \
     libdrmframework_jni \
     libfwdlockengine \
-    OpenWnn \
     VideoEditor 
 
 # Additional settings used in all AOSP builds
