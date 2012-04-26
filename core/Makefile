@@ -1151,7 +1151,7 @@ name := $(TARGET_PRODUCT)
 ifeq ($(TARGET_BUILD_TYPE),debug)
   name := $(name)_debug
 endif
-name := ViciousAOSP_nightly_$(shell date +"%m-%d-%y")
+name := ViciousAOSP_$(TARGET_DEVICE)_nightly_$(shell date +"%m-%d-%y")
 
 
 INTERNAL_OTA_PACKAGE_TARGET := $(PRODUCT_OUT)/$(name).zip
